@@ -5,8 +5,11 @@ Some interfaces were trimmed to reduce cost and board space - one HDMI instead o
 
 The result is a clean 6-layer design with 4GB of RAM that can be fabricated at JLCPCB for under £100 (excluding RAM 💸).
 
- ![iMX8 - Atlas](https://github.com/ADubovitskiy/i.MX8-Atlas/blob/main/Galery/iMX%208%20Atlas.png) "Image 1 - Top Layer"
- 
+ ![iMX8 - Atlas](https://github.com/ADubovitskiy/i.MX8-Atlas/blob/main/Galery/iMX%208%20Atlas.png) 
+ <p align="center">
+<b>Image 1 - Top Layer</b>
+</p>
+
 ## Main System Blocks
 | | |
 |---|---|
@@ -15,18 +18,18 @@ The result is a clean 6-layer design with 4GB of RAM that can be fabricated at J
 | **Storage** | eMMC 5.1 + 32MB QSPI NOR Flash |
 | **Ethernet** | Realtek RTL8211F-CG GbE PHY |
 | **PMIC** | NXP PCA9450C |
-| **Form factor** | SoM + carrier board via 2× 70-pin mezzanine connectors |
+| **Form factor** | SoM + carrier board via 2× 80-pin mezzanine connectors |
 | **PCB** | 6-layer, JLC06161H-1080A stackup, 1.2mm |
 
 ## Connectors
  
-Two 70-pin mezzanine connectors expose all carrier-facing signals.
+Two 80-pin mezzanine connectors expose all carrier-facing signals.
  
 **Connector 1**:
-Control & digital: UART ×3, I²C ×3, SPI, CAN FD ×2, SAI3 audio, PCM/BT, SPDIF, SD1/2, HDMI, Ethernet MDI, GPIO, Reset/Boot, 5V power in.
+Control & digital: UART ×3, I²C ×2, SPI, CAN FD ×2, SAI3 audio, PCM/BT, SPDIF, SD2, HDMI, Ethernet MDI, Reset, 5V power in.
 
 **Connector 2**:
-High-speed differential: LVDS0, MIPI DSI, MIPI CSI1, USB1+2 (SuperSpeed), PCIe Gen3 ×1.
+High-speed differential: LVDS0, MIPI DSI, MIPI CSI, USB1+2 (SuperSpeed), PCIe Gen3.
  
 ---
  
@@ -38,6 +41,9 @@ High-speed differential: LVDS0, MIPI DSI, MIPI CSI1, USB1+2 (SuperSpeed), PCIe G
  
 ## Stackup
  
-**JLCPCB JLC06161H-1080A · 6 layers · 1.2mm**
+**JLCPCB JLC06161H-1080A · 6 layers · 1.22mm**
  
-> *Image coming soon*
+ ![iMX8 - Atlas](https://github.com/ADubovitskiy/i.MX8-Atlas/blob/main/Galery/Stackup.png) 
+  <p align="center">
+<b>Image 4 - Stackup</b>
+</p>
