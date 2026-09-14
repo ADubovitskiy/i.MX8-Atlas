@@ -10,6 +10,11 @@ The result is a clean 6-layer design with 4GB of RAM that can be fabricated at J
 <b>Image 1 - Top Layer</b>
 </p>
 
+![iMX8 - Atlas](https://github.com/ADubovitskiy/i.MX8-Atlas/blob/main/Galery/Top%20and%20Bot.png) 
+ <p align="center">
+<b>Image 2 - Realistic Top and Bottom View</b>
+</p>
+
 ## Main System Blocks
 | | |
 |---|---|
