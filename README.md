@@ -40,7 +40,10 @@ High-speed differential: LVDS0, MIPI DSI, MIPI CSI, USB1+2 (SuperSpeed), PCIe Ge
  
 ## Component Placement
  
-> *Image coming soon*
+ ![iMX8 - Atlas](https://github.com/ADubovitskiy/i.MX8-Atlas/blob/main/Galery/Component_placement.png) 
+  <p align="center">
+<b>Image 3 - Component Placement</b>
+</p>
  
 ---
  
